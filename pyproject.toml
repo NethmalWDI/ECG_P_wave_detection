@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "p_detection"
+version = "0.1.0"
+description = "This package is for p wave detection related task"
+authors = ["Imasha Nethmal"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matplotlib = "^3.10.1"
+scipy = "^1.15.2"
+numpy = "^1.24"  # Adjusted to a compatible version
+pandas = "^2.2.2"
+wfdb = "^4.3.0"
+h5py = "^3.13.0"
+xlsxwriter = "^3.0.3"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
